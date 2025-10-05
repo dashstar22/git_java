@@ -11,7 +11,7 @@ public class test {
         Pay(c2);
     }
     public static void Pay(Card c) {
-        System.out.println("请输入金额：aaa");
+        System.out.println("请输入金额：ddd");
         Scanner sc = new Scanner(System.in);
         double money = sc.nextDouble();
         c.pay(money);
