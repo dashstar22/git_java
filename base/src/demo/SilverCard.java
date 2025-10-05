@@ -15,5 +15,6 @@ public class SilverCard extends Card{
             System.out.println("余额不足，请充值");
         else
             setMoney(getMoney() - money*0.9);
+
     }
 }
